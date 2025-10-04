@@ -1,6 +1,4 @@
-# Credit-Card-Fraud-Detection-with-Generative-AI
-
-# Credit Card Fraud Detection with Generative AI (GANs)
+# Credit-Card-Fraud-Detection-with-Generative-AI (GANs)
 
 This project tackles the critical problem of **credit card fraud detection** by leveraging **Generative Adversarial Networks (GANs)** to address the severe **data imbalance** inherent in financial transaction datasets.
 
