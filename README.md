@@ -43,11 +43,9 @@ The project uses the anonymized credit card transaction dataset from Kaggle.
 
 * **Dataset Link:** [Credit Card Fraud Detection Dataset (Kaggle)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-**Action:** Download `creditcard.csv` and rename it to **`Creditcard_dataset.csv`** in the root directory.
-
 ### 2. Dependencies
 
-Install all required dependencies using the `requirements.txt` file (see contents below):
+Install all required dependencies using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
@@ -71,7 +69,8 @@ python lr_pca_model.py
 ### Run GAN Training & Final Model (gan_model.py):
 Builds and trains the GAN, generates synthetic data, creates the balanced dataset, and finally trains/evaluates the LR model on the GAN-augmented data (Phases 2 & 3).
 
-### This step is computationally intensive and may take time depending on your hardware
 ```bash
 python gan_model.py
 ```
+### This step is computationally intensive and may take time depending on your hardware
+
