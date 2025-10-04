@@ -1,6 +1,6 @@
 # Credit-Card-Fraud-Detection-with-Generative-AI
 
-# 💳 Credit Card Fraud Detection with Generative AI (GANs)
+# Credit Card Fraud Detection with Generative AI (GANs)
 
 This project tackles the critical problem of **credit card fraud detection** by leveraging **Generative Adversarial Networks (GANs)** to address the severe **data imbalance** inherent in financial transaction datasets.
 
@@ -8,7 +8,7 @@ The core goal was to generate high-quality synthetic fraudulent transactions, ef
 
 ---
 
-## 💡 Project Highlights & Results
+## Project Highlights & Results
 
 The original dataset is extremely imbalanced (only **0.172%** fraud cases). The primary business goal was to maximize **Recall** for the fraud class.
 
@@ -21,7 +21,7 @@ The original dataset is extremely imbalanced (only **0.172%** fraud cases). The 
 
 ---
 
-## 🔬 Methodology and Process (Brief)
+## Methodology and Process (Brief)
 
 1.  **Initial Benchmark:**
     * **Data Prep:** Scaled the `Amount` feature.
@@ -37,7 +37,7 @@ The original dataset is extremely imbalanced (only **0.172%** fraud cases). The 
 
 ---
 
-## 🛠️ Setup and Execution
+## Setup and Execution
 
 ### 1. Data Source
 
@@ -55,7 +55,7 @@ Install all required dependencies using the `requirements.txt` file (see content
 pip install -r requirements.txt
 ```
 
-## 🏃 How to Run the Code
+## How to Run the Code
 The project is structured into three main scripts to show the progression from initial data handling to the final augmented model. Run these commands sequentially from your terminal:
 
 ### Run Preprocessing (data_prep.py):
