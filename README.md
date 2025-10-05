@@ -72,5 +72,4 @@ Builds and trains the GAN, generates synthetic data, creates the balanced datase
 ```bash
 python gan_model.py
 ```
-### This step is computationally intensive and may take time depending on your hardware
 
