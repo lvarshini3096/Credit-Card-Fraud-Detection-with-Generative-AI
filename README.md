@@ -19,7 +19,7 @@ The original dataset is extremely imbalanced (only **0.172%** fraud cases). The 
 
 ---
 
-## Methodology and Process (Brief)
+## Methodology and Process
 
 1.  **Initial Benchmark:**
     * **Data Prep:** Scaled the `Amount` feature.
